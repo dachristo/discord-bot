@@ -1,5 +1,5 @@
 import Discord from 'discord.js';
-import Config from './config.mjs';
+import Config from '../config/config.mjs';
 import readMessages from './readMessages.mjs';
 
 const connexion = async () => {
