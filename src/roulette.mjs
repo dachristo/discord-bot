@@ -21,6 +21,6 @@ export default (message) => {
         createMagazine();
         message.reply('Vous êtes mort dommage');
     } else {
-        message.reply(`Il reste encore ${magazine.length} coups dans le chargeur`);
+        message.reply(`Il reste encore ${magazine.length} coups dans le charger`);
     }
 }
