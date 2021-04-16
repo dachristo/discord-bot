@@ -1,5 +1,6 @@
 import Config from '../config/config.mjs';
 import roulette from './roulette.mjs';
+import refresh from './refresh.mjs';
 
 export default (client) => {
     client.on('message', (message) => {
@@ -10,6 +11,8 @@ export default (client) => {
         switch (args[0]) {
             case '!roulette':
                 return roulette(message);
+            case '!refresh':
+                return refresh(message);
         }
     })
 }
